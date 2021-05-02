@@ -4,7 +4,7 @@
 	import Footer from "./Footer.svelte";
 	import { clickthrough } from "./stores";
 	import { isLoading } from "svelte-i18n";
-	import * as locales from "./locales/loader";
+	import * as locales from "../locales/loader";
 
 	locales.initialize();
 </script>
