@@ -8,7 +8,7 @@ Chroma svelterat.monster
 
 ## Translations
 
-Feel free to add translations for your language to `src/locales`, and send a pull request.
+Feel free to add translations for your language to `locales`, and send a pull request.
 Just make a TS file for the locale and I'll sort the rest. 
 
 Don't be shy, they're basically just JSON! ~~but im forced to make them TS or snowpack will eat my ass~~.
