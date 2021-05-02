@@ -29,7 +29,7 @@
           <button
             transition:fade
             on:click={() => ($clickthrough = true)}
-            class="bg-green-300 p-4 rounded-md w-full mx-4 mt-4 mb-0 hover:bg-green-400 hover:shadow-md transition-all"
+            class="bg-green-600 p-4 rounded-md w-full mx-4 mt-4 mb-0 hover:bg-green-700 hover:shadow-md transition-all"
             >{$_("warning.button")}</button
           >
         {/if}
