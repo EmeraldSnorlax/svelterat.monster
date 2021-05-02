@@ -13,7 +13,7 @@
         type="number"
         bind:value={$step}
         min="0"
-        max="10"
+        max="100"
       />
       <input class="w-full" type="range" bind:value={$step} min="0" max="100" />
     </label>
