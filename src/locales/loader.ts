@@ -5,7 +5,7 @@ export function initialize() {
   register('en', () => import('./en-GB.json'));
   register('uwu', () => import('./uwu.json'));
   init({
-    fallbackLocale: 'en',
+    fallbackLocale: 'en-GB',
     initialLocale: getLocaleFromNavigator(),
   });
 }
