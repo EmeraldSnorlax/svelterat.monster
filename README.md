@@ -10,6 +10,7 @@ Chroma svelterat.monster
 
 Feel free to add translations for your language to `src/locales`, and send a pull request.
 Just make a JSON file for the locale and I'll sort the rest.
+As of right now, I have no clue if RTL languages work, but feel free to submit them anyway lol
 
 
 ## Scripts
