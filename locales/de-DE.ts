@@ -13,6 +13,6 @@ export default
   footer: {
     language: 'Sprache',
     source: 'Source on Github - GNU AGPL-3.0',
-    translationNote: "Deine Sprache ist nicht hier? Reiche eine Übersetzung auf der GitHub repo ein! ⟶",
+    translationNote: "Deine Sprache ist nicht hier? Reiche eine Übersetzung auf unserer GitHub repo ein! ⟶",
   },
 };
