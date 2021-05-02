@@ -16,7 +16,7 @@
 <div>
   <img
     style="filter: hue-rotate({hue}deg)"
-    class="w-full"
+    class="max-w-full max-h-full"
     src="./bigrat.png"
     alt="bigrat"
   />

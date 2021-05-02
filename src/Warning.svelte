@@ -14,11 +14,11 @@
   });
 </script>
 
-<div class="flex items-center justify-center rounded-md shadow-2xl m-4 h-full">
+<div class="flex items-center justify-center rounded-md shadow-2xl bg-true-gray-700">
   <div>
     <div class="flex justify-center" />
     <h1 class="font-bold text-2xl pt-5 md:pt-0 text-center">
-      Chroma svelterat.monster
+      {$_('page.title')}
     </h1>
     <p class="text-xl md:text-center m-4">
       {$_("warning.text")}
