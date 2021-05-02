@@ -9,7 +9,7 @@
     <label class="text-white font-bold flex items-center">
       <span class="pr-3 m-2">{$_("controls.step")}</span>
       <input
-        class="text-black p-2 mr-6"
+        class="text-black p-2 mr-6 w-20"
         type="number"
         bind:value={$step}
         min="0"
