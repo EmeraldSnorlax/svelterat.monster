@@ -1,8 +1,6 @@
 <script lang="typescript">
   import Controls from "./Controls.svelte";
   import { step } from "../stores";
-  import { onMount } from "svelte";
-
   let hue = 0;
 
   setInterval(() => {
