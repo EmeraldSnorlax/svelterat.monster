@@ -1,0 +1,9 @@
+{
+  "page": {
+    "title": "Chroma svelterat.monster"
+  },
+  "warning": {
+    "text": "This site contains pulsing colours, which may be problematic for those with photosensitive epilepsy.",
+    "button": "Continue"
+  }
+}

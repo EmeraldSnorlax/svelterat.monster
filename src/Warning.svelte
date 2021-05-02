@@ -1,26 +1,27 @@
 <script lang="typescript">
   import { fade } from "svelte/transition";
+  import { _ } from "svelte-i18n";
   import { clickthrough } from "./stores";
+  import { onMount } from "svelte";
   let waitTime = 4;
   let wait = waitTime;
 
-  let tick = setInterval(() => {
-    wait -= 0.02;
-    if (wait < 0) clearInterval(tick);
-  }, 20);
+  onMount(() => {
+    let tick = setInterval(() => {
+      wait -= 0.02;
+      if (wait < 0) clearInterval(tick);
+    }, 20);
+  });
 </script>
 
-<div
-  class="flex items-center justify-center rounded-md shadow-2xl m-4 h-full"
->
+<div class="flex items-center justify-center rounded-md shadow-2xl m-4 h-full">
   <div>
     <div class="flex justify-center" />
     <h1 class="font-bold text-2xl pt-5 md:pt-0 text-center">
       Chroma svelterat.monster
     </h1>
     <p class="text-xl md:text-center m-4">
-      This site contains pulsing colours, which may be problematic for those
-      with photosensitive epilepsy.
+      {$_("warning.text")}
     </p>
     <div class="flex justify-center">
       <div>
@@ -29,7 +30,7 @@
             transition:fade
             on:click={() => ($clickthrough = true)}
             class="bg-green-300 p-4 rounded-md w-full mx-4 mt-4 mb-0 hover:bg-green-400 hover:shadow-md transition-all"
-            >Continue</button
+            >{$_("warning.button")}</button
           >
         {/if}
         <progress
