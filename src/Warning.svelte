@@ -14,7 +14,7 @@
   });
 </script>
 
-<div class="flex items-center justify-center rounded-md shadow-2xl bg-true-gray-700">
+<div class="flex items-center justify-center rounded-md shadow-2xl bg-true-gray-700 py-4">
   <div>
     <div class="flex justify-center" />
     <h1 class="font-bold text-2xl pt-5 md:pt-0 text-center">
