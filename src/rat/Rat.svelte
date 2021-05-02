@@ -4,8 +4,8 @@
   import { onMount } from "svelte";
 
   let hue = 0;
-  let last = 0;
-  let tick = setInterval(() => {
+
+  setInterval(() => {
     hue += $step;
     if (hue > 360) hue -= 360;
     else if (hue < 0) hue += 360;
@@ -13,7 +13,7 @@
 </script>
 
 <Controls />
-<div class="rounded-lg">
+<div>
   <img
     style="filter: hue-rotate({hue}deg)"
     class="w-full"
