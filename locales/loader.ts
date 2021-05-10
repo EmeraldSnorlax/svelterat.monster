@@ -6,6 +6,7 @@ export function initialize() {
   register('en-US', () => import('./en-US'));
   register('de-DE', () => import('./de-DE'));
   register('pt-BR', () => import('./pt-BR'));
+  register('ru-RU', () => import('./ru-RU'));
   register('uwu', () => import('./uwu'));
 
   init({
