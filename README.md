@@ -6,6 +6,8 @@ Chroma svelterat.monster
 > 
 > ✨ Community template for Snowpack + Svelte + Typescript + TailwindCSS
 
+Site live: https://rat.snorlax.cc/
+
 ## Translations
 
 Feel free to add translations for your language to `locales`, and send a pull request.
